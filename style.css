@@ -1,0 +1,274 @@
+.container-fluid{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(101, 183, 61)
+}
+.home ,.about ,.contact{
+    padding: 15px 10px;
+    display: inline-block;
+}
+.home a,.about a,.contact a{
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;    
+}
+.menu-btn{
+    width: 55px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 20px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    z-index: 99999;
+    cursor: pointer;
+}
+.menu-btn span{
+    width: 60%;
+    height: 3px;
+    background-color: black;
+    display: block;
+    margin: 10px auto;
+    transition: all .3s;
+}
+.menu-box{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.87);
+    position: fixed;
+    top: 0;
+    right: -100%;;
+    padding: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+.menu-box.active{
+    right: 0!important;
+}
+.menu-btn.active span:first-child{
+    background: rgb(101, 183, 61);
+    transform: rotate(45deg) translate(10px, 10px);
+}
+.menu-btn.active span:last-child{
+    background: rgb(101, 183, 61);
+    transform: rotate(-45deg) translate(8px, -8px);
+}
+.menu-btn.active span:nth-child(2){
+    opacity: 0;
+}
+.work a{
+    font-size:80px;
+    font-weight: bolder;
+}
+.menu-box a{
+    font-size: 50px;
+    color: rgb(101, 183, 61);
+    font-family: serif;
+    text-decoration: none;
+}
+.contactimg{
+    padding-top: 50px;
+}
+.menu-ig ,.menu-mail ,.menu-twitter{
+    padding: 10px 20px;
+    display: inline-block;
+}
+.carousel-inner{
+    padding-top: 30px;
+}
+.carousel-caption h1{
+    font-size: 110px;
+    font-weight: bold;
+    font-family: serif;
+}
+.carousel-caption p{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: serif;
+}
+.container2{
+    padding-top: 30px;
+}
+.mg-word{
+    padding: 40px 70px;
+}
+.mg-img{
+    padding-left: 30px;
+}
+.mg-word h2{
+    font-size: 60px;
+    font-family: serif;
+    font-weight: bold;
+    color: rgb(206, 65, 100);
+}
+.mg-word p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.mg-btn{
+    padding-top: 5px;
+}
+.container3{
+    color: rgb(206, 65, 100);
+    margin-top: 50px;
+}
+.work-word{
+    padding-top: 180px;
+    padding-right: 30px;
+}
+.work-word2{
+    padding-top: 130px;
+    padding-right: 30px;
+}
+.card{
+    border: none;
+    padding-top: 50px;
+}
+.card-title, .card-text{
+    padding-left: 90px;
+}
+.card-title{
+    font-weight: bold;
+    color: rgb(206, 65, 100);
+    font-family: serif;
+}
+.card-text{
+    padding-top: 10px;
+    font-size: 14px;
+}
+.ill-card1{
+    padding: 110px 20px 10px 80px;
+}
+.ill-card2{
+    padding: 100px 80px 10px 20px;
+}
+.illcard-title1 h6,.illcard-title2 h6{
+    font-weight: bold;
+    color: rgb(206, 65, 100);
+    font-family: serif;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.container4{
+    background-color: rgb(130, 90, 161);
+    margin: 120px 0 80px 0;
+}
+.linesticker1{
+    padding-top: 20px;
+}
+.linesticker-title{
+    padding-top: 200px;
+    padding-left: 30px;
+}
+.linesticker-title h7{
+    font-size: 50px;
+    font-family: serif;
+    color:floralwhite;
+    font-weight: bold;
+}
+.linesticker-text{
+    color: floralwhite;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.line{
+    padding: 80px 30px 80px;
+}
+.purpleboy{
+    padding-bottom: 150px;
+    text-align: center;
+}
+.purpleboy-title h10{
+    font-family: serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(130, 90, 161);
+}
+.hand-word{
+    padding: 20px 50px;   
+}
+.hand-title{
+    font-family: serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(206, 65, 100);
+}
+.hand-text{
+    padding-top: 10px;
+}
+.row{
+    margin-right: 0;
+}
+.container6{
+    background-color: black;
+    margin-top: 120px;
+    height: auto;
+}
+.con-title{
+    padding-left: 170px;
+    padding-top: 100px;
+}
+.con-title h9{
+    font-size: 40px;
+    font-family: serif;
+    font-weight: bold;
+    color: rgb(101, 183, 61);
+}
+.con-text p{
+    font-size: 20px;
+    font-family: serif;
+    color: floralwhite;
+}
+.con-text{
+    padding-left: 170px;
+    padding-top: 10px;
+}
+.con-logo{
+    padding-left: 170px;
+    padding-top: 10px;
+}
+.bottom-ig ,.bottom-mail ,.bottom-twitter{
+    display: inline-block;
+    padding-right: 15px;
+}
+.con-logo2{
+    padding-left: 130px;
+    padding-top: 30px;
+}
+.con-form{
+    padding: 110px 60px;
+}
+.form-space span{
+    height: 25px;
+    display: block;
+}
+
+.btn2{
+    background: rgb(101, 183, 61);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+a:hover{
+    color: floralwhite;
+}
+.work-word h3:hover{
+    color: rgb(101, 183, 61);
+}.work-word h5:hover{
+    color: rgb(101, 183, 61);
+}
+.ME{
+    margin: 30px 0;
+}
